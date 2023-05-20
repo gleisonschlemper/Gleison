@@ -4,68 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <style>
-
-        *{
-            padding: 0;
-            margin: 0;
-            outline: none;
-            text-decoration: none;
-        }
-
-        :root{
-            --largura: #ffffff
-        }
-
-        body{
-            max-width: 100vw;
-            height: 100vh;
-            outline: none;
-            background-color: var(--largura);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-        }
-
-        .container{
-            max-width: 100vw;
-            height: 90%;
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-            position: relative;
-        }
-
-        .m-top-1{
-            margin-top: 1rem;
-        }
-    
-        .m-bottom-1{
-            margin-bottom: 1rem;
-        }
-
-        .m-l-1{
-            margin-left: 1rem;
-        }
-
-        .foto{
-            width: 120px;
-            height: 110px;
-            position: absolute;
-            background: rgb(0, 255, 255);
-            right: 0;
-            top: 40px
-        }
-    </style>
 </head>
 <body>
     <main class="container">
-        <div class="foto">..</div>
+        <div class="foto justify-content-center d-flex align-items-center">
+            FOTO
+        </div>
            
         <!-- Parte de contato -->
-        <h1>Gleison Schlemper</h1>
+        <h1 class="p-1">Gleison Schlemper</h1>
         <div>
           <p>Brasileiro, Masculino, Solteiro, 19 anos</p>  
           <p>Nacionalidade: Rio do sul / SC</p> 
@@ -77,16 +26,14 @@
           <p>GitHub: https://github.com/gleisonschlemper</p> 
           <p>LinkedIn: https://www.linkedin.com/in/gleison-dev-schlemper</p>             
         </div>
-        <hr>
-
         <!-- Meu Objetivo Adquirir novos conhecimentos como estagiário   -->
-        <h2  class="m-top-1">OBJETIVO </h2> <!--  -->
+        <h2  class="m-top-1 p-1">OBJETIVO </h2> <!--  -->
         <p class="p-1">
-            Busco oportunidade de primeiro estagiário
+            Primeiro estagiário
         </p>
 
         <!-- Minha eduação -->
-        <h2  class="m-top-1">EDUCAÇÃO</h2>
+        <h2  class="m-top-1 p-1">EDUCAÇÃO</h2>
         <div>
             <p class="p-1">2019 até 2021 - Ensino médio (Completo)</p>  
             <p class="p-1">2023 até 2027 - Bacharelado em Ciência da computação (Cursando) - IFC Urbano – Rio do sul</p> 
@@ -94,24 +41,28 @@
         </div>
 
         <!-- Cursos que me ensinaram até aqui -->
-        <h2  class="m-top-1">CURSOS ADICIONAIS</h2>
+        <h2  class="m-top-1 p-1">CURSOS ADICIONAIS</h2>
         <div> 
             <p class="p-1">2022 - Jovem programador | Programador de sistema - 200 horas</p>
             <p class="p-1">2022 - Jovens Talentos PHP | IPM Sistemas – 64 horas</p>
             <p class="p-1">2022 - Senac – Jovem programador | Programador Web – 120 horas</p>  
             <p class="p-1">2022 – HTML e CSS – Udemy (EAD) – 9 horas</p>          
         </div>
-        <h2 class="m-top-1">EXPERIÊNCIA PROFISSIONAL</h2>
-        <p class="p-1">2021 – SIBRATEC | Jovem aprendiz</p>
+
+        <!-- Experirêcia de trabalho  -->
+        <h2 class="m-top-1 p-2">EXPERIÊNCIA PROFISSIONAL</h2>
+        <p>2021 – SIBRATEC | Jovem aprendiz</p>
         <ul>
-            <li class="m-l-1">Trabalhei na Manutenção e separação de componentes eletrônicos </li>
+            <li class="m-l-1 p-1">Trabalhei na Manutenção e separação de componentes eletrônicos </li>
         </ul>
-        <h2 class="m-top-1">CONHECIMENTO</h2>
+
+        <!-- Conhehcimento -->
+        <h2 class="m-top-1 p-1">CONHECIMENTO</h2>
        <ul>
-            <li class="m-l-1">SQL Básico</li>
-            <li class="m-l-1">HTML, CSS, Javascript Básico </li>
-            <li class="m-l-1">PHP Básico </li>
-            <li class="m-l-1">Pacote Office </li>
+            <li class="m-l-1 p-1">SQL Básico</li>
+            <li class="m-l-1 p-1">HTML, CSS, Javascript Básico </li>
+            <li class="m-l-1 p-1">PHP Básico </li>
+            <li class="m-l-1 p-1">Pacote Office </li>
        </ul>
     </main>
 </body>
